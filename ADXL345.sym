@@ -1,0 +1,165 @@
+v 20100214 2
+B 300 0 2600 1800 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+P 0 1400 300 1400 1 0 0
+{
+T 0 1400 5 10 0 0 0 0 1
+pintype=pwr
+T 355 1395 9 10 1 1 0 0 1
+pinlabel=VDD
+T 205 1445 5 10 1 1 0 6 1
+pinnumber=1
+T 0 1400 5 10 0 0 0 0 1
+pinseq=1
+}
+P 0 1200 300 1200 1 0 0
+{
+T 0 1200 5 10 0 0 0 0 1
+pintype=pwr
+T 355 1195 9 10 1 1 0 0 1
+pinlabel=GND
+T 205 1245 5 10 1 1 0 6 1
+pinnumber=2
+T 0 1200 5 10 0 0 0 0 1
+pinseq=2
+}
+P 0 1000 300 1000 1 0 0
+{
+T 0 1000 5 10 0 0 0 0 1
+pintype=unknown
+T 355 995 9 10 1 1 0 0 1
+pinlabel=RESERVED
+T 205 1045 5 10 1 1 0 6 1
+pinnumber=3
+T 0 1000 5 10 0 0 0 0 1
+pinseq=3
+}
+P 0 800 300 800 1 0 0
+{
+T 0 800 5 10 0 0 0 0 1
+pintype=pwr
+T 355 795 9 10 1 1 0 0 1
+pinlabel=GND
+T 205 845 5 10 1 1 0 6 1
+pinnumber=4
+T 0 800 5 10 0 0 0 0 1
+pinseq=4
+}
+P 0 600 300 600 1 0 0
+{
+T 0 600 5 10 0 0 0 0 1
+pintype=pwr
+T 355 595 9 10 1 1 0 0 1
+pinlabel=GND
+T 205 645 5 10 1 1 0 6 1
+pinnumber=5
+T 0 600 5 10 0 0 0 0 1
+pinseq=5
+}
+P 0 400 300 400 1 0 0
+{
+T 0 400 5 10 0 0 0 0 1
+pintype=pwr
+T 355 395 9 10 1 1 0 0 1
+pinlabel=Vs
+T 205 445 5 10 1 1 0 6 1
+pinnumber=6
+T 0 400 5 10 0 0 0 0 1
+pinseq=6
+}
+P 3200 1200 2900 1200 1 0 0
+{
+T 3200 1200 5 10 0 0 0 0 1
+pintype=io
+T 2845 1195 9 10 1 1 0 6 1
+pinlabel=SDA/SDI/SDIO
+T 2995 1245 5 10 1 1 0 0 1
+pinnumber=13
+T 3200 1200 5 10 0 0 0 0 1
+pinseq=13
+}
+P 3200 1000 2900 1000 1 0 0
+{
+T 3200 1000 5 10 0 0 0 0 1
+pintype=unknown
+T 2845 995 9 10 1 1 0 6 1
+pinlabel=RESERVED
+T 2995 1045 5 10 1 1 0 0 1
+pinnumber=11
+T 3200 1000 5 10 0 0 0 0 1
+pinseq=11
+}
+P 3200 800 2900 800 1 0 0
+{
+T 3200 800 5 10 0 0 0 0 1
+pintype=out
+T 2845 795 9 10 1 1 0 6 1
+pinlabel=SDO/ALT ADDR
+T 2995 845 5 10 1 1 0 0 1
+pinnumber=12
+T 3200 800 5 10 0 0 0 0 1
+pinseq=12
+}
+P 3200 600 2900 600 1 0 0
+{
+T 3200 600 5 10 0 0 0 0 1
+pintype=unknown
+T 2845 595 9 10 1 1 0 6 1
+pinlabel=NC
+T 2995 645 5 10 1 1 0 0 1
+pinnumber=10
+T 3200 600 5 10 0 0 0 0 1
+pinseq=10
+}
+P 3200 400 2900 400 1 0 0
+{
+T 3200 400 5 10 0 0 0 0 1
+pintype=unknown
+T 2845 395 9 10 1 1 0 6 1
+pinlabel=INT2
+T 2995 445 5 10 1 1 0 0 1
+pinnumber=9
+T 3200 400 5 10 0 0 0 0 1
+pinseq=9
+}
+P 3200 200 2900 200 1 0 0
+{
+T 3200 200 5 10 0 0 0 0 1
+pintype=unknown
+T 2845 195 9 10 1 1 0 6 1
+pinlabel=INT1
+T 2995 245 5 10 1 1 0 0 1
+pinnumber=8
+T 3200 200 5 10 0 0 0 0 1
+pinseq=8
+}
+P 0 200 200 200 1 0 0
+{
+T 0 200 5 10 0 0 90 2 1
+pintype=in
+T 355 195 9 10 1 1 0 0 1
+pinlabel=\_CS\_
+T 205 245 5 10 1 1 0 6 1
+pinnumber=7
+T 0 200 5 10 0 0 90 2 1
+pinseq=7
+}
+P 3200 1400 2900 1400 1 0 0
+{
+T 3200 1400 5 10 0 0 90 2 1
+pintype=clk
+T 2845 1395 9 10 1 1 0 6 1
+pinlabel=SCL/SCLK
+T 2995 1445 5 10 1 1 0 0 1
+pinnumber=14
+T 3200 1400 5 10 0 0 90 2 1
+pinseq=14
+}
+V 250 200 50 6 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 300 1850 9 10 1 0 0 0 1
+ADXL345
+T 2400 1850 8 10 1 1 0 0 1
+refdes=U?
+T 1195 1600 8 10 0 1 0 0 1
+device=ADXL345
+T -5 1600 8 10 0 1 0 0 1
+description=Analog Devices ADXL345 3-axis accelerometer.
